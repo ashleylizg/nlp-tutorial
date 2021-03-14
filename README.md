@@ -22,14 +22,14 @@ pip install -r requirements.txt
 # Run the Jupyter Notebook and select the main.ipynb file
 jupyter notebook
 
-# Then exit the virtual environment
+# When finished, use Ctrl+C to kill the Jupyter Notebook, then exit the virtual environment
 deactivate
-
+```
 For future runs:
 ```powershell
 cd nlp-tutorial
 ./env/scripts/activate
 jupyter notebook
-# When finished, use Ctrl+C to kill the Jupyter Notebook
+# When finished, use Ctrl+C to kill the Jupyter Notebook, then exit the virtual environment
 deactivate
 ```
